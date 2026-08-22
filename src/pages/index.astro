@@ -6,96 +6,134 @@ import Text from "../components/Text.astro";
 import "../styles/tobii.min.css";
 ---
 
-<MainLayout title="The Silver Comb - Pitch Deck" hideHeaderFooter={true}>
-  <!-- h-[100dvh] sikrer præcis skærmhøjde. flex-shrink-0 forhindrer klemte slides. -->
+<MainLayout title="The Silver Comb - Pitch Deck">
   <section id="silver-comb-container" tabindex="0" class="w-screen h-screen h-[100dvh] overflow-y-scroll snap-y snap-mandatory
          scroll-smooth overscroll-contain
          px-4 md:px-20 bg-black outline-none block">
     <!-- Slide 1 -->
-    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center">
-      <img src="../images/1.jpg" alt="The silver comb 1" class="max-h-[85vh] max-w-[90vw] object-contain pointer-events-none select-none" />
+    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center overflow-hidden">
+      <div class="zoom-wrapper flex justify-center items-center w-full h-full">
+        <img src="../images/1.jpg" alt="1" class="zoomable-img max-h-[85vh] max-w-[90vw] object-contain cursor-zoom-in select-none touch-none" />
+      </div>
     </div>
 
     <!-- Slide 2 -->
-    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center">
-      <img src="../images/2.jpg" alt="The silver comb 2" class="max-h-[85vh] max-w-[90vw] object-contain pointer-events-none select-none" />
+    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center overflow-hidden">
+      <div class="zoom-wrapper flex justify-center items-center w-full h-full">
+        <img src="../images/2.jpg" alt="2" class="zoomable-img max-h-[85vh] max-w-[90vw] object-contain cursor-zoom-in select-none touch-none" />
+      </div>
     </div>
 
     <!-- Slide 3 -->
-    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center">
-      <img src="../images/3.jpg" alt="The silver comb 3" class="max-h-[85vh] max-w-[90vw] object-contain pointer-events-none select-none" />
+    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center overflow-hidden">
+      <div class="zoom-wrapper flex justify-center items-center w-full h-full">
+        <img src="../images/3.jpg" alt="3" class="zoomable-img max-h-[85vh] max-w-[90vw] object-contain cursor-zoom-in select-none touch-none" />
+      </div>
     </div>
 
     <!-- Slide 4 -->
-    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center">
-      <img src="../images/4.jpg" alt="The silver comb 4" class="max-h-[85vh] max-w-[90vw] object-contain pointer-events-none select-none" />
+    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center overflow-hidden">
+      <div class="zoom-wrapper flex justify-center items-center w-full h-full">
+        <img src="../images/4.jpg" alt="4" class="zoomable-img max-h-[85vh] max-w-[90vw] object-contain cursor-zoom-in select-none touch-none" />
+      </div>
     </div>
 
     <!-- Slide 5 -->
-    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center">
-      <img src="../images/5.jpg" alt="The silver comb 5" class="max-h-[85vh] max-w-[90vw] object-contain pointer-events-none select-none" />
+    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center overflow-hidden">
+      <div class="zoom-wrapper flex justify-center items-center w-full h-full">
+        <img src="../images/5.jpg" alt="5" class="zoomable-img max-h-[85vh] max-w-[90vw] object-contain cursor-zoom-in select-none touch-none" />
+      </div>
     </div>
 
     <!-- Slide 6 -->
-    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center">
-      <img src="../images/6.jpg" alt="The silver comb 6" class="max-h-[85vh] max-w-[90vw] object-contain pointer-events-none select-none" />
+    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center overflow-hidden">
+      <div class="zoom-wrapper flex justify-center items-center w-full h-full">
+        <img src="../images/6.jpg" alt="6" class="zoomable-img max-h-[85vh] max-w-[90vw] object-contain cursor-zoom-in select-none touch-none" />
+      </div>
     </div>
 
     <!-- Slide 7 -->
-    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center">
-      <img src="../images/7.jpg" alt="The silver comb 7" class="max-h-[85vh] max-w-[90vw] object-contain pointer-events-none select-none" />
+    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center overflow-hidden">
+      <div class="zoom-wrapper flex justify-center items-center w-full h-full">
+        <img src="../images/7.jpg" alt="7" class="zoomable-img max-h-[85vh] max-w-[90vw] object-contain cursor-zoom-in select-none touch-none" />
+      </div>
     </div>
 
     <!-- Slide 8 -->
-    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center">
-      <img src="../images/8.jpg" alt="The silver comb 8" class="max-h-[85vh] max-w-[90vw] object-contain pointer-events-none select-none" />
+    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center overflow-hidden">
+      <div class="zoom-wrapper flex justify-center items-center w-full h-full">
+        <img src="../images/8.jpg" alt="8" class="zoomable-img max-h-[85vh] max-w-[90vw] object-contain cursor-zoom-in select-none touch-none" />
+      </div>
     </div>
 
     <!-- Slide 9 -->
-    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center">
-      <img src="../images/9.jpg" alt="The silver comb 9" class="max-h-[85vh] max-w-[90vw] object-contain pointer-events-none select-none" />
+    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center overflow-hidden">
+      <div class="zoom-wrapper flex justify-center items-center w-full h-full">
+        <img src="../images/9.jpg" alt="9" class="zoomable-img max-h-[85vh] max-w-[90vw] object-contain cursor-zoom-in select-none touch-none" />
+      </div>
     </div>
 
     <!-- Slide 10 -->
-    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center">
-      <img src="../images/10.jpg" alt="The silver comb 10" class="max-h-[85vh] max-w-[90vw] object-contain pointer-events-none select-none" />
+    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center overflow-hidden">
+      <div class="zoom-wrapper flex justify-center items-center w-full h-full">
+        <img src="../images/10.jpg" alt="10" class="zoomable-img max-h-[85vh] max-w-[90vw] object-contain cursor-zoom-in select-none touch-none" />
+      </div>
     </div>
 
     <!-- Slide 11 -->
-    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center">
-      <img src="../images/11.jpg" alt="The silver comb 11" class="max-h-[85vh] max-w-[90vw] object-contain pointer-events-none select-none" />
+    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center overflow-hidden">
+      <div class="zoom-wrapper flex justify-center items-center w-full h-full">
+        <img src="../images/11.jpg" alt="11" class="zoomable-img max-h-[85vh] max-w-[90vw] object-contain cursor-zoom-in select-none touch-none" />
+      </div>
     </div>
 
     <!-- Slide 12 -->
-    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center">
-      <img src="../images/12.jpg" alt="The silver comb 12" class="max-h-[85vh] max-w-[90vw] object-contain pointer-events-none select-none" />
+    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center overflow-hidden">
+      <div class="zoom-wrapper flex justify-center items-center w-full h-full">
+        <img src="../images/12.jpg" alt="12" class="zoomable-img max-h-[85vh] max-w-[90vw] object-contain cursor-zoom-in select-none touch-none" />
+      </div>
     </div>
 
     <!-- Slide 13 -->
-    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center">
-      <img src="../images/13.jpg" alt="The silver comb 13" class="max-h-[85vh] max-w-[90vw] object-contain pointer-events-none select-none" />
+    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center overflow-hidden">
+      <div class="zoom-wrapper flex justify-center items-center w-full h-full">
+        <img src="../images/13.jpg" alt="13" class="zoomable-img max-h-[85vh] max-w-[90vw] object-contain cursor-zoom-in select-none touch-none" />
+      </div>
     </div>
 
     <!-- Slide 14 -->
-    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center">
-      <img src="../images/14.jpg" alt="The silver comb 14" class="max-h-[85vh] max-w-[90vw] object-contain pointer-events-none select-none" />
+    <div class="snap-center snap-always h-screen h-[100dvh] w-full flex-shrink-0 flex justify-center items-center overflow-hidden">
+      <div class="zoom-wrapper flex justify-center items-center w-full h-full">
+        <img src="../images/14.jpg" alt="14" class="zoomable-img max-h-[85vh] max-w-[90vw] object-contain cursor-zoom-in select-none touch-none" />
+      </div>
     </div>
   </section>
 </MainLayout>
+
+<style is:global>
+  header,
+  footer {
+    display: none !important;
+  }
+  html,
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    height: 100vh !important;
+  }
+</style>
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const container = document.getElementById("silver-comb-container");
 
     if (container) {
-      // Sæt fokus så tastatur fanger det straks
       container.focus();
 
+      // 1. TASTATUR NAVIGATION
       window.addEventListener("keydown", (e) => {
-        // Tjekker om man trykker ned, PageDown eller Mellemrum (uden Shift)
         const isNext = e.key === "ArrowDown" || e.key === "PageDown" || (e.key === " " && !e.shiftKey);
-
-        // Tjekker om man trykker op, PageUp eller Shift + Mellemrum
         const isPrev = e.key === "ArrowUp" || e.key === "PageUp" || (e.key === " " && e.shiftKey);
 
         if (isNext) {
@@ -105,6 +143,104 @@ import "../styles/tobii.min.css";
           e.preventDefault();
           container.scrollBy({ top: -container.clientHeight, behavior: "smooth" });
         }
+      });
+
+      // 2. ZOOM OG UNLIMITED DRAG LOGIK
+      const images = document.querySelectorAll(".zoomable-img");
+
+      images.forEach((img) => {
+        const wrapper = img.parentElement;
+        let zoomLevel = 0; // 0, 1, 2
+        let isDragging = false;
+        let startX = 0,
+          startY = 0;
+        let currentX = 0,
+          currentY = 0;
+
+        const updateTransform = (smooth) => {
+          img.style.transition = smooth ? "transform 0.25s ease-out" : "none";
+          wrapper.style.transition = smooth ? "transform 0.25s ease-out" : "none";
+
+          if (zoomLevel === 0) {
+            currentX = 0;
+            currentY = 0;
+            img.style.transform = "scale(1)";
+            wrapper.style.transform = "translate(0px, 0px)";
+            container.style.overflowY = "scroll";
+          } else {
+            const scale = zoomLevel === 1 ? 1.8 : 2.8;
+            img.style.transform = `scale(${scale})`;
+            wrapper.style.transform = `translate(${currentX}px, ${currentY}px)`;
+            container.style.overflowY = "hidden";
+          }
+        };
+
+        // DOBBELTKLIK / DOBBELTTAP
+        img.addEventListener("dblclick", (e) => {
+          e.preventDefault();
+
+          if (zoomLevel === 0) {
+            zoomLevel = 1;
+            const rect = img.getBoundingClientRect();
+            const offsetX = e.clientX - (rect.left + rect.width / 2);
+            const offsetY = e.clientY - (rect.top + rect.height / 2);
+
+            currentX = -offsetX;
+            currentY = -offsetY;
+
+            img.classList.remove("cursor-zoom-in");
+            img.classList.add("cursor-grab");
+          } else if (zoomLevel === 1) {
+            zoomLevel = 2;
+            img.classList.remove("cursor-grab");
+            img.classList.add("cursor-zoom-out");
+          } else {
+            zoomLevel = 0;
+            img.classList.remove("cursor-zoom-out", "cursor-grab");
+            img.classList.add("cursor-zoom-in");
+          }
+
+          updateTransform(true);
+        });
+
+        // STABIL DRAG (PÅ WRAPPEREN)
+        img.addEventListener("mousedown", (e) => {
+          if (zoomLevel === 0) return;
+          e.preventDefault();
+          isDragging = true;
+
+          startX = e.clientX - currentX;
+          startY = e.clientY - currentY;
+
+          img.classList.remove("cursor-grab", "cursor-zoom-out");
+          img.classList.add("cursor-grabbing");
+        });
+
+        window.addEventListener("mousemove", (e) => {
+          if (!isDragging || zoomLevel === 0) return;
+          e.preventDefault();
+
+          currentX = e.clientX - startX;
+          currentY = e.clientY - startY;
+
+          updateTransform(false);
+        });
+
+        window.addEventListener("mouseup", () => {
+          if (isDragging) {
+            isDragging = false;
+            img.classList.remove("cursor-grabbing");
+            img.classList.add(zoomLevel === 2 ? "cursor-zoom-out" : "cursor-grab");
+          }
+        });
+
+        // NULSTIL VED SCROLL
+        container.addEventListener("scroll", () => {
+          if (zoomLevel !== 0) {
+            zoomLevel = 0;
+            updateTransform(true);
+          }
+        });
       });
     }
   });
