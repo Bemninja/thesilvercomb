@@ -7,7 +7,7 @@ import "../styles/tobii.min.css";
 ---
 
 <MainLayout title="The Silver Comb - Pitch Deck">
-  <section id="silver-comb-container" tabindex="0" class="w-screen h-[100dvh] overflow-y-scroll snap-y snap-mandatory
+  <section id="pitch-deck-container" tabindex="0" class="w-screen h-[100dvh] overflow-y-scroll snap-y snap-mandatory
          scroll-smooth overscroll-contain
          px-4 md:px-20 bg-black outline-none block">
     <!-- Slide 1 -->
@@ -99,7 +99,7 @@ import "../styles/tobii.min.css";
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-    const container = document.getElementById("silver-comb-container");
+    const container = document.getElementById("pitch-deck-container");
 
     if (container) {
       container.focus();
@@ -118,7 +118,7 @@ import "../styles/tobii.min.css";
         }
       });
 
-      // 2. UNIVERSEL ZOOM, PINCH OG PAN LOGIK (PRÆCIS SOM I POTS)
+      // 2. UNIVERSEL ZOOM, PINCH OG PAN LOGIK
       const images = document.querySelectorAll(".zoomable-img");
 
       images.forEach((img) => {
@@ -141,13 +141,13 @@ import "../styles/tobii.min.css";
             currentX = 0;
             currentY = 0;
             img.style.transform = "";
-            img.style.touchAction = "pan-y";
+            img.style.touchAction = "pan-y"; // Tillad normal sidescroll på mobil når ikke zoomet
             container.style.overflowY = "scroll";
             img.classList.remove("cursor-grab", "cursor-grabbing", "cursor-zoom-out");
             img.classList.add("cursor-zoom-in");
           } else {
             img.style.transform = `translate(${currentX}px, ${currentY}px) scale(${currentScale})`;
-            img.style.touchAction = "none";
+            img.style.touchAction = "none"; // Lås sidescroll under zoom så man kan panne frit
             container.style.overflowY = "hidden";
             img.classList.remove("cursor-zoom-in");
             img.classList.add(isDragging ? "cursor-grabbing" : "cursor-grab");
