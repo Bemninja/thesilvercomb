@@ -1,3 +1,102 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import Link from "../components/Link.astro";
+import Heading from "../components/Heading.astro";
+import Text from "../components/Text.astro";
+import "../styles/tobii.min.css";
+---
+
+<MainLayout title="The Silver Comb - Pitch Deck">
+  <section id="silver-comb-container" tabindex="0" class="w-screen h-[100dvh] overflow-y-scroll snap-y snap-mandatory
+         scroll-smooth overscroll-contain
+         px-4 md:px-20 bg-black outline-none block">
+    <!-- Slide 1 -->
+    <div class="snap-center snap-always h-[100dvh] w-full flex-shrink-0 flex justify-center items-center my-auto">
+      <img src="../images/1.jpg" alt="1" class="zoomable-img max-h-[85vh] max-h-[85dvh] max-w-[90vw] object-contain cursor-zoom-in select-none" />
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="snap-center snap-always h-[100dvh] w-full flex-shrink-0 flex justify-center items-center my-auto">
+      <img src="../images/2.jpg" alt="2" class="zoomable-img max-h-[85vh] max-h-[85dvh] max-w-[90vw] object-contain cursor-zoom-in select-none" />
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="snap-center snap-always h-[100dvh] w-full flex-shrink-0 flex justify-center items-center my-auto">
+      <img src="../images/3.jpg" alt="3" class="zoomable-img max-h-[85vh] max-h-[85dvh] max-w-[90vw] object-contain cursor-zoom-in select-none" />
+    </div>
+
+    <!-- Slide 4 -->
+    <div class="snap-center snap-always h-[100dvh] w-full flex-shrink-0 flex justify-center items-center my-auto">
+      <img src="../images/4.jpg" alt="4" class="zoomable-img max-h-[85vh] max-h-[85dvh] max-w-[90vw] object-contain cursor-zoom-in select-none" />
+    </div>
+
+    <!-- Slide 5 -->
+    <div class="snap-center snap-always h-[100dvh] w-full flex-shrink-0 flex justify-center items-center my-auto">
+      <img src="../images/5.jpg" alt="5" class="zoomable-img max-h-[85vh] max-h-[85dvh] max-w-[90vw] object-contain cursor-zoom-in select-none" />
+    </div>
+
+    <!-- Slide 6 -->
+    <div class="snap-center snap-always h-[100dvh] w-full flex-shrink-0 flex justify-center items-center my-auto">
+      <img src="../images/6.jpg" alt="6" class="zoomable-img max-h-[85vh] max-h-[85dvh] max-w-[90vw] object-contain cursor-zoom-in select-none" />
+    </div>
+
+    <!-- Slide 7 -->
+    <div class="snap-center snap-always h-[100dvh] w-full flex-shrink-0 flex justify-center items-center my-auto">
+      <img src="../images/7.jpg" alt="7" class="zoomable-img max-h-[85vh] max-h-[85dvh] max-w-[90vw] object-contain cursor-zoom-in select-none" />
+    </div>
+
+    <!-- Slide 8 -->
+    <div class="snap-center snap-always h-[100dvh] w-full flex-shrink-0 flex justify-center items-center my-auto">
+      <img src="../images/8.jpg" alt="8" class="zoomable-img max-h-[85vh] max-h-[85dvh] max-w-[90vw] object-contain cursor-zoom-in select-none" />
+    </div>
+
+    <!-- Slide 9 -->
+    <div class="snap-center snap-always h-[100dvh] w-full flex-shrink-0 flex justify-center items-center my-auto">
+      <img src="../images/9.jpg" alt="9" class="zoomable-img max-h-[85vh] max-h-[85dvh] max-w-[90vw] object-contain cursor-zoom-in select-none" />
+    </div>
+
+    <!-- Slide 10 -->
+    <div class="snap-center snap-always h-[100dvh] w-full flex-shrink-0 flex justify-center items-center my-auto">
+      <img src="../images/10.jpg" alt="10" class="zoomable-img max-h-[85vh] max-h-[85dvh] max-w-[90vw] object-contain cursor-zoom-in select-none" />
+    </div>
+
+    <!-- Slide 11 -->
+    <div class="snap-center snap-always h-[100dvh] w-full flex-shrink-0 flex justify-center items-center my-auto">
+      <img src="../images/11.jpg" alt="11" class="zoomable-img max-h-[85vh] max-h-[85dvh] max-w-[90vw] object-contain cursor-zoom-in select-none" />
+    </div>
+
+    <!-- Slide 12 -->
+    <div class="snap-center snap-always h-[100dvh] w-full flex-shrink-0 flex justify-center items-center my-auto">
+      <img src="../images/12.jpg" alt="12" class="zoomable-img max-h-[85vh] max-h-[85dvh] max-w-[90vw] object-contain cursor-zoom-in select-none" />
+    </div>
+
+    <!-- Slide 13 -->
+    <div class="snap-center snap-always h-[100dvh] w-full flex-shrink-0 flex justify-center items-center my-auto">
+      <img src="../images/13.jpg" alt="13" class="zoomable-img max-h-[85vh] max-h-[85dvh] max-w-[90vw] object-contain cursor-zoom-in select-none" />
+    </div>
+
+    <!-- Slide 14 -->
+    <div class="snap-center snap-always h-[100dvh] w-full flex-shrink-0 flex justify-center items-center my-auto">
+      <img src="../images/14.jpg" alt="14" class="zoomable-img max-h-[85vh] max-h-[85dvh] max-w-[90vw] object-contain cursor-zoom-in select-none" />
+    </div>
+  </section>
+</MainLayout>
+
+<style is:global>
+  header,
+  footer {
+    display: none !important;
+  }
+  html,
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    height: 100vh !important;
+    height: 100dvh !important;
+  }
+</style>
+
 <script>
   document.addEventListener("DOMContentLoaded", () => {
     const container = document.getElementById("silver-comb-container");
@@ -19,7 +118,7 @@
         }
       });
 
-      // 2. UNIVERSEL ZOOM, TOUCH PAN OG DOBBELTTAP
+      // 2. UNIVERSEL ZOOM, PINCH OG PAN LOGIK (PRÆCIS SOM I POTS)
       const images = document.querySelectorAll(".zoomable-img");
 
       images.forEach((img) => {
@@ -34,9 +133,6 @@
         let initialPinchDist = 0;
         let initialPinchScale = 1;
 
-        // Custom mobile double-tap timer variables
-        let lastTapTime = 0;
-
         const updateTransform = (smooth = false) => {
           img.style.transition = smooth ? "transform 0.25s ease-out" : "none";
 
@@ -45,109 +141,92 @@
             currentX = 0;
             currentY = 0;
             img.style.transform = "";
-            img.style.touchAction = "pan-y"; // Tillad normal højdescroll på mobil når ikke zoomet
+            img.style.touchAction = "pan-y";
             container.style.overflowY = "scroll";
             img.classList.remove("cursor-grab", "cursor-grabbing", "cursor-zoom-out");
             img.classList.add("cursor-zoom-in");
           } else {
             img.style.transform = `translate(${currentX}px, ${currentY}px) scale(${currentScale})`;
-            img.style.touchAction = "none"; // Bloker default scroll, så én finger panner billedet
+            img.style.touchAction = "none";
             container.style.overflowY = "hidden";
             img.classList.remove("cursor-zoom-in");
             img.classList.add(isDragging ? "cursor-grabbing" : "cursor-grab");
           }
         };
 
-        const toggleZoom = (clientX, clientY) => {
+        // DOBBELTKLIK / DOBBELT-TAP
+        img.addEventListener("dblclick", (e) => {
+          e.preventDefault();
+
           if (currentScale === 1) {
             currentScale = 1.8;
-            currentX = window.innerWidth / 2 - clientX;
-            currentY = window.innerHeight / 2 - clientY;
+            currentX = window.innerWidth / 2 - e.clientX;
+            currentY = window.innerHeight / 2 - e.clientY;
           } else if (currentScale < 2.5) {
             currentScale = 2.8;
           } else {
             currentScale = 1;
           }
-          updateTransform(true);
-        };
 
-        // DOBBELTKLIK (DESKTOP)
-        img.addEventListener("dblclick", (e) => {
-          e.preventDefault();
-          toggleZoom(e.clientX, e.clientY);
+          updateTransform(true);
         });
 
-        // DESKTOP MOUSE DRAG
-        img.addEventListener("mousedown", (e) => {
+        // MUS OG SINGLE TOUCH PANNING
+        img.addEventListener("pointerdown", (e) => {
           if (currentScale <= 1) return;
-          e.preventDefault();
           isDragging = true;
+
+          if (img.setPointerCapture) {
+            try {
+              img.setPointerCapture(e.pointerId);
+            } catch (_) {}
+          }
+
           startX = e.clientX - currentX;
           startY = e.clientY - currentY;
           updateTransform(false);
         });
 
-        window.addEventListener("mousemove", (e) => {
+        img.addEventListener("pointermove", (e) => {
           if (!isDragging || currentScale <= 1) return;
           e.preventDefault();
+
           currentX = e.clientX - startX;
           currentY = e.clientY - startY;
+
           updateTransform(false);
         });
 
-        window.addEventListener("mouseup", () => {
+        const stopDrag = (e) => {
           if (isDragging) {
             isDragging = false;
+            if (img.releasePointerCapture && e.pointerId) {
+              try {
+                img.releasePointerCapture(e.pointerId);
+              } catch (_) {}
+            }
             updateTransform(false);
           }
-        });
+        };
 
-        // MOBIL TOUCH (DOUBLE-TAP, 1-FINGER PAN & PINCH-TO-ZOOM)
+        img.addEventListener("pointerup", stopDrag);
+        img.addEventListener("pointercancel", stopDrag);
+
+        // TWO-FINGER PINCH-TO-ZOOM (TOUCH)
         img.addEventListener(
           "touchstart",
           (e) => {
-            const now = Date.now();
-
-            // 1. Dobbelt-tap på mobil
-            if (e.touches.length === 1) {
-              if (now - lastTapTime < 300) {
-                e.preventDefault();
-                toggleZoom(e.touches[0].clientX, e.touches[0].clientY);
-                lastTapTime = 0;
-                return;
-              }
-              lastTapTime = now;
-
-              // Start 1-finger drag hvis zoomet ind
-              if (currentScale > 1) {
-                isDragging = true;
-                startX = e.touches[0].clientX - currentX;
-                startY = e.touches[0].clientY - currentY;
-              }
-            }
-
-            // 2. Pinch zoom start (2 fingre)
             if (e.touches.length === 2) {
-              isDragging = false;
               initialPinchDist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY);
               initialPinchScale = currentScale;
             }
           },
-          { passive: false },
+          { passive: true },
         );
 
         img.addEventListener(
           "touchmove",
           (e) => {
-            // 1-finger pan når zoomet
-            if (e.touches.length === 1 && isDragging && currentScale > 1) {
-              e.preventDefault();
-              currentX = e.touches[0].clientX - startX;
-              currentY = e.touches[0].clientY - startY;
-              updateTransform(false);
-            }
-
-            // 2-finger pinch zoom
             if (e.touches.length === 2 && initialPinchDist > 0) {
               e.preventDefault();
               const currentDist = Math.hypot(e.touches[0].clientX - e.touches[1].clientX, e.touches[0].clientY - e.touches[1].clientY);
@@ -160,10 +239,8 @@
         );
 
         img.addEventListener("touchend", (e) => {
-          if (e.touches.length === 0) {
-            isDragging = false;
+          if (e.touches.length < 2) {
             initialPinchDist = 0;
-
             if (currentScale < 1.1) {
               currentScale = 1;
               updateTransform(true);
@@ -171,7 +248,7 @@
           }
         });
 
-        // NULSTIL VED SLIDE SCROLL
+        // NULSTIL HVIS DER SCROLLES TIL NÆSTE SLIDE
         container.addEventListener("scroll", () => {
           if (currentScale !== 1) {
             currentScale = 1;
